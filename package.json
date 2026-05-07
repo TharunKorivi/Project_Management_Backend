@@ -1,0 +1,37 @@
+{
+    "name": "project-management",
+    "version": "1.0.0",
+    "description": "An application where team members can organise tasks among them effectively.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "seed": "node src/db/seed.js"
+    },
+    "keywords": [
+        "API",
+        "project",
+        "management",
+        "tasks"
+    ],
+    "author": "Tharun Korivi",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "express-validator": "^7.3.2",
+        "jsonwebtoken": "^9.0.3",
+        "mailgen": "^2.0.34",
+        "mongoose": "^9.5.0",
+        "multer": "^2.1.1",
+        "nodemailer": "^8.0.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14",
+        "prettier": "^3.8.3"
+    }
+}
