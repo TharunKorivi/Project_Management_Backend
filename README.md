@@ -320,7 +320,7 @@ MAIL_SMTP_PASSWORD=
 ## Clone Repository
 
 ```bash id="v7h1te"
-git clone <repository-url>
+git clone https://github.com/TharunKorivi/Project_Management_Backend.git
 ```
 
 ---
